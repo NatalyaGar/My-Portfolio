@@ -1,0 +1,126 @@
+
+.navbar-brand,
+h1
+ {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    padding:30px 20px;
+    
+}
+#navHead{
+    border-bottom: 2px solid white;
+    background-color:#ad8880db;
+
+}
+#navbarNav {
+    font-size: 17px;
+    margin-left: 68%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;   
+}
+.nav-link{
+    
+    color: white;
+}
+
+
+.btn:hover {
+    color: #6e5b54 !important;
+ }
+ .nav-link:hover {
+    color: #6e5b54 !important;
+ }
+
+#cardAnimate{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #d08e7edb;
+    letter-spacing: 1px;
+    font-family: 'Alegreya', serif;
+    margin-top: 30px;
+
+}
+
+#portf{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #d08e7edb;
+    margin-top: 50px;
+    border-bottom: 2px solid #d08e7edb;
+}
+
+.apBuild{
+    text-align: center;
+    color:#dc7157db;
+    font-size: 30px;
+}
+
+.card-title{
+    color:#da9f90db;
+    text-align: center;
+}
+
+.card-textPr{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#94807bdb;
+    letter-spacing: 1px;
+    font-family: 'Alegreya', serif;
+   
+}
+
+.btn{
+    background-color:#d2ada4db;
+    color: white;
+    margin-left: 35%;
+}
+.card-img{
+    border-bottom: 3px solid #ad8880db;
+    border-top: 3px solid #ad8880db;
+ 
+}
+
+
+               /* Sticky footer styles
+                -------------------------------------------------- */
+                html {
+                    position: relative;
+                    /* position: fixed; */
+                    min-height: 100%;
+                    }
+                    body {
+                    /* Margin bottom by footer height */
+                    margin-bottom: 0px;
+                    }
+                    .footer {
+                    position: absolute;
+                    bottom: 0;
+                    width:100%;
+    
+                    /* Set the fixed height of the footer here */
+                    height: 70px;
+                    background-color: #ad8880db;
+                    /* border-top: 3px solid #d08e7edb; */
+                    }
+                    #footer{
+                        margin-top: 20px;
+                        
+                    }
+
+html{
+    height: 100%;
+    position: relative;
+  
+  }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+} 
