@@ -33,6 +33,25 @@ h1
     color: #6e5b54 !important;
  }
 
+ #Linkedin,
+ #GitHub,
+ #Email{
+    color: #907268
+ }
+
+ #Linkedin:hover {
+    color: #6e5b54 !important;
+ }
+
+ #Linkedin,
+ #GitHub{
+    border-right: 1px solid #907268;
+    margin:10px 10px 10px 0px;
+    padding-right: 15px;
+   
+ }
+ 
+
 #cardAnimate{
     text-align: center;
     font-weight: bold;
@@ -64,7 +83,10 @@ h1
     color:#da9f90db;
     text-align: center;
 }
-
+#footerName{
+    color: white;
+    margin-top: 10px;
+}
 .card-textPr{
     text-align: center;
     font-weight: bold;
@@ -86,6 +108,16 @@ h1
  
 }
 
+.connect{
+    text-align: center;
+
+
+    /* background-color: #ad8880db; */
+
+
+}
+
+
 
                /* Sticky footer styles
                 -------------------------------------------------- */
@@ -99,17 +131,19 @@ h1
                     margin-bottom: 0px;
                     }
                     .footer {
-                    position: absolute;
+                    /* position: absolute; */
                     bottom: 0;
                     width:100%;
+                
+                    
     
                     /* Set the fixed height of the footer here */
-                    height: 70px;
+                    height: 85px;
                     background-color: #ad8880db;
-                    /* border-top: 3px solid #d08e7edb; */
                     }
                     #footer{
-                        margin-top: 20px;
+                        margin-top: 3px;
+                        padding-top: 15px;
                         
                     }
 
@@ -124,3 +158,4 @@ html {
 *, *:before, *:after {
    box-sizing: inherit;
 } 
+
