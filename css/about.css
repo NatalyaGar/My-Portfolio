@@ -1,0 +1,117 @@
+.navbar-brand,
+h1
+ {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    padding:30px 20px;
+    
+}
+#navHead{
+    border-bottom: 2px solid white;
+    background-color:#ad8880db;
+
+}
+#navbarNav {
+    font-size: 17px;
+    margin-left: 68%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;   
+}
+.nav-link{
+    
+    color: white;
+}
+
+.nav-link:hover {
+    color: #6e5b54 !important;
+ }
+
+ #cardAnimate{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #d08e7edb;
+    letter-spacing: 1px;
+    font-family: 'Alegreya', serif;
+    margin-top: 20px;
+
+}
+
+.bio-image{
+    width: 230px;
+    height: 200px;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+}
+.textAbout{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#94807bdb;
+    letter-spacing: 1px;
+    font-family: 'Alegreya', serif;
+}
+
+#footerName{
+    color: white;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+
+.connect{
+    text-align: center;
+}
+
+#Linkedin,
+ #GitHub,
+ #Email{
+    color: #f1dfd9;
+ }
+
+
+ #Linkedin,
+ #GitHub{
+    border-right: 1px solid #f1dfd9;
+    margin:10px 10px 10px 0px;
+    padding-right: 15px;
+   
+ }
+ 
+
+               /* Sticky footer styles
+                -------------------------------------------------- */
+                html {
+                    position: relative;
+                    min-height: 100%;
+                    }
+                    body {
+                    /* Margin bottom by footer height */
+                    margin-bottom: 0px;
+                    }
+                    .footer {
+                    position: relative;
+                    bottom: 0;
+                    width:100%;
+                   
+                
+                    /* Set the fixed height of the footer here */
+                    height: 85px;
+                    background-color: #ad8880db;
+                    }
+                    
+
+html{
+    height: 100%;
+    position: relative;
+  
+  }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+} 
+
