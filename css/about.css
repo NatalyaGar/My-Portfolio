@@ -28,7 +28,8 @@ h1
     color: #6e5b54 !important;
  }
 
- #cardAnimate{
+ #cardAnimate,
+ #cardAnimate2{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -39,20 +40,36 @@ h1
 
 }
 
+#cardAnimate2{
+    /* border-bottom: 2px solid #d08e7edb; */
+    padding:10px;
+    border-style: double;
+}
+
 .bio-image{
     width: 230px;
     height: 200px;
-    /* margin-left: 40%; */
     margin-bottom: 2%;
     border-radius: 50%;
 }
 .textAbout{
-    text-align: center;
+    /* text-align: center; */
+    text-align: justify;
     font-weight: bold;
     font-size: 20px;
     color:#94807bdb;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-family: 'Alegreya', serif;
+}
+
+.skills{
+    margin-left: 60px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 14px;
+    color:#94807bdb;
+    letter-spacing: 1px;
+    font-family:'Dancing+Script' ;
 }
 
 #footerName{

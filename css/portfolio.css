@@ -85,13 +85,10 @@ h1
     color:#da9f90db;
     text-align: center;
 }
-#footerName{
-    color: white;
-    margin-top: 3px;
-    padding-top: 15px;
-}
+
 .card-textPr{
     text-align: center;
+    /* text-align: justify; */
     font-weight: bold;
     font-size: 20px;
     color:#94807bdb;
@@ -118,6 +115,11 @@ h1
 
 }
 
+#footerName{
+    color: white;
+    margin-top: 3px;
+    padding-top: 15px;
+}
 
 
                /* Sticky footer styles
@@ -133,15 +135,53 @@ h1
                     .footer {
                     /* position: absolute; */
                     position: relative;
-                    /* position: fixed; */
-                    bottom: 0;
-                    width:100%;
-                    min-height: 100%;
+                     bottom: 0; 
+                    width:100%;  
+                    /* min-height: 100%; */
+                   
                 
                     /* Set the fixed height of the footer here */
-                    height: 85px;
+                     height: 85px;
                     background-color: #ad8880db;
-                    }
+                    } 
+
+
+
+                    /* html, body {
+                        height: 100%;
+                        margin: 0;
+                      }
+                      .wrapper {
+                        min-height: 100%; */
+                      
+                        /* Equal to height of footer */
+                        /* But also accounting for potential margin-bottom of last child */
+                        /* margin-bottom: -85px;
+                      }
+                      .footer,
+                      .push {
+                        height: 85px;
+                      } */
+
+
+
+                      /* html, body {
+                        height: 100%;
+                        margin: 0;
+                      }
+                      .content {
+                        min-height: 100%;
+                      }
+                      .content-inside {
+                        padding: 20px;
+                        padding-bottom: 85px;
+                      }
+                      .footer {
+                        height: 85px;
+                        margin-top: -85px;
+                      } */
+
+
                     
 
 html{
