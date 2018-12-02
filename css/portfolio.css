@@ -36,16 +36,18 @@ h1
  #Linkedin,
  #GitHub,
  #Email{
-    color: #907268
+    /* color: #907268 */
+    color: #f1dfd9;
  }
 
- #Linkedin:hover {
+ /* #Linkedin:hover {
     color: #6e5b54 !important;
- }
+ } */
 
  #Linkedin,
  #GitHub{
-    border-right: 1px solid #907268;
+    /* border-right: 1px solid #907268; */
+    border-right: 1px solid #f1dfd9;
     margin:10px 10px 10px 0px;
     padding-right: 15px;
    
@@ -85,7 +87,8 @@ h1
 }
 #footerName{
     color: white;
-    margin-top: 10px;
+    margin-top: 3px;
+    padding-top: 15px;
 }
 .card-textPr{
     text-align: center;
@@ -110,8 +113,6 @@ h1
 
 .connect{
     text-align: center;
-
-
     /* background-color: #ad8880db; */
 
 
@@ -123,7 +124,6 @@ h1
                 -------------------------------------------------- */
                 html {
                     position: relative;
-                    /* position: fixed; */
                     min-height: 100%;
                     }
                     body {
@@ -132,20 +132,17 @@ h1
                     }
                     .footer {
                     /* position: absolute; */
+                    position: relative;
+                    /* position: fixed; */
                     bottom: 0;
                     width:100%;
+                    min-height: 100%;
                 
-                    
-    
                     /* Set the fixed height of the footer here */
                     height: 85px;
                     background-color: #ad8880db;
                     }
-                    #footer{
-                        margin-top: 3px;
-                        padding-top: 15px;
-                        
-                    }
+                    
 
 html{
     height: 100%;
