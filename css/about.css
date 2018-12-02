@@ -42,7 +42,7 @@ h1
 .bio-image{
     width: 230px;
     height: 200px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     margin-bottom: 2%;
     border-radius: 50%;
 }
