@@ -1,3 +1,4 @@
+
 .navbar-brand,
 h1
  {
@@ -28,22 +29,21 @@ h1
     color: #6e5b54 !important;
  }
 
- #cardAnimate,
- #cardAnimate2{
+#cardAnimate2{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
-    color: #d08e7edb;
+    font-size: 50px;
+    color:  #d08e7edb;
     letter-spacing: 1px;
     font-family: 'Alegreya', serif;
     margin-top: 20px;
-
 }
-
-#cardAnimate2{
-    /* border-bottom: 2px solid #d08e7edb; */
-    padding:10px;
-    border-style: double;
+#containerAbout{
+    border-style: double; 
+    color:  #d08e7edb;
+    padding: 30px 60px 30px 60px;
+    background-color:white;
+    margin-bottom: 50px;
 }
 
 .bio-image{
@@ -52,13 +52,19 @@ h1
     margin-bottom: 2%;
     border-radius: 50%;
 }
+
+.moreDetail{
+    width: 130px;
+    margin-left: 90%;
+    margin-top: 90%;
+   
+}
+
 .textAbout{
-    /* text-align: center; */
     text-align: justify;
     font-weight: bold;
     font-size: 20px;
     color:#94807bdb;
-    /* letter-spacing: 1px; */
     font-family: 'Alegreya', serif;
 }
 
@@ -71,6 +77,14 @@ h1
     letter-spacing: 1px;
     font-family:'Dancing+Script' ;
 }
+.btn{
+   background-color: #ad8880db;
+   color:white;
+}
+
+.btn:hover {
+    color: #6e5b54 !important;
+ }
 
 #footerName{
     color: white;
