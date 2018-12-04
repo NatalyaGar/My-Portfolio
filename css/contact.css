@@ -1,37 +1,25 @@
 
-        /* #test { 
-            background-image: url(images/aboutBgr.png); 
-            background-attachment: fixed; 
-            height:200px; 
-            width:300px; 
-            overflow:scroll; }    
-    */
 
-    #contNat
-      {
-        /* color:rgb(227, 235, 238); */
-        /* color:rgb(150, 69, 48); */
-            color: #d08e7edb;
-            font-family: 'Amatic SC', cursive;
-            text-align: center;
-            font-size: 8em;
-            font-weight: bold;
-            letter-spacing: 3px;
-            line-height: 1;
-            padding-top: 50px;
-           
-
-    }
-    .navbar-brand,
-h1
- {
-    font-family: 'Open Sans', sans-serif;
+#contNat {
+    color: #d08e7edb;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 8em;
     font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
-    padding:30px 20px;
-    
+    letter-spacing: 3px;
+    line-height: 1;
+    padding-top: 50px;
 }
+
+.navbar-brand,
+h1{
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+color: white;
+padding:30px 20px;
+}
+
 #navHead{
     border-bottom: 2px solid white;
     background-color:#ad8880db;
@@ -39,26 +27,28 @@ h1
     /* margin: 0 auto !important; */
 
 }
+
 #navbarNav {
     font-size: 17px;
     margin-left: 60%;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;   
 }
+
 .nav-link{
     
     color: white;
 }
 
-.btn:hover {
+.submit:hover {
     color: #6e5b54 !important;
  }
 
  .submit{
     background-color:#ad8880db;
     color: white;
-    /* margin-left: 35%; */
 }
+
  .nav-link:hover {
     color: #6e5b54 !important;
  }
@@ -70,12 +60,13 @@ h1
      font-size: 20px;
      margin-top: 40px;
  }
+
  .lets{
      font-weight: bold;
      font-size: 25px;
      margin-bottom: 20px;
-
  }
+
 #footerName{
     color: white;
     margin-top: 3px;
@@ -91,8 +82,8 @@ h1
     background-color: rgb(219, 218, 217);
     padding: 30px 30px;
     color: #966156db;
-    /* font-weight: bold; */
 }
+
 .emailL {
     margin-top:20px;
     }
@@ -104,12 +95,12 @@ h1
        #status{
            margin: 30px;
        }
+
 #Linkedin,
  #GitHub,
  #Email{
     color: #f1dfd9;
  }
-
 
  #Linkedin,
  #GitHub{

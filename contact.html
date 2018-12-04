@@ -58,13 +58,12 @@
         <p>You can use the form below to drop me a line.</p>
      </div>
 
-     <!-- <form class="contForm">  -->
       <form action="https://formspree.io/natalya.garusova@gmail.com" method="POST" class="contForm">
             <div class="row">
               <div class="col">
                     <label for="inputFirstName">First Name</label>
-                    <!-- <span class="required">*</span> -->
-                <input type="text" name="First Name" class="form-control">
+                    <span class="required">*</span>
+                <input type="text" name="First Name" class="form-control" id="firstName">
               </div>
               <div class="col">
                     <label for="inputFirstName">Last Name</label>
@@ -86,11 +85,12 @@
 
             </div>
 
-            <!-- <button type="submit" class="submit" class="btn btn-*"> -->
-                <input type="submit" value="Send your message" class="submit">
-                
-            <!-- </button> -->
-     </form>
+            
+            <!-- Send your message -->
+            <input type="submit" value="Send your message" class="submit">
+            
+           
+        </form>
 
 
             <footer>
