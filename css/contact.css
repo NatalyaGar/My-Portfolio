@@ -1,5 +1,28 @@
 
-.navbar-brand,
+        /* #test { 
+            background-image: url(images/aboutBgr.png); 
+            background-attachment: fixed; 
+            height:200px; 
+            width:300px; 
+            overflow:scroll; }    
+    */
+
+    #contNat
+      {
+        /* color:rgb(227, 235, 238); */
+        /* color:rgb(150, 69, 48); */
+            color: #d08e7edb;
+            font-family: 'Amatic SC', cursive;
+            text-align: center;
+            font-size: 8em;
+            font-weight: bold;
+            letter-spacing: 3px;
+            line-height: 1;
+            padding-top: 50px;
+           
+
+    }
+    .navbar-brand,
 h1
  {
     font-family: 'Open Sans', sans-serif;
@@ -12,6 +35,8 @@ h1
 #navHead{
     border-bottom: 2px solid white;
     background-color:#ad8880db;
+    /* position: relative; */
+    /* margin: 0 auto !important; */
 
 }
 #navbarNav {
@@ -25,67 +50,32 @@ h1
     color: white;
 }
 
-.nav-link:hover {
-    color: #6e5b54 !important;
- }
-
-#cardAnimate2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    color:  #d08e7edb;
-    letter-spacing: 1px;
-    font-family: 'Alegreya', serif;
-    margin-top: 20px;
-}
-#containerAbout{
-    border-style: double; 
-    color:  #d08e7edb;
-    padding: 30px 60px 30px 60px;
-    background-color:white;
-    margin-bottom: 50px;
-}
-
-.bio-image{
-    width: 230px;
-    height: 200px;
-    margin-bottom: 2%;
-    border-radius: 50%;
-}
-
-.moreDetail{
-    width: 130px;
-    margin-left: 90%;
-    margin-top: 90%;
-   
-}
-
-.textAbout{
-    text-align: justify;
-    font-weight: bold;
-    font-size: 20px;
-    color:#94807bdb;
-    font-family: 'Alegreya', serif;
-}
-
-.skills{
-    margin-left: 60px;
-    text-align: justify;
-    font-weight: bold;
-    font-size: 14px;
-    color:#94807bdb;
-    letter-spacing: 1px;
-    font-family:'Dancing+Script' ;
-}
-.btn{
-   background-color: #ad8880db;
-   color:white;
-}
-
 .btn:hover {
     color: #6e5b54 !important;
  }
 
+ .btn{
+    background-color:#ad8880db;
+    color: white;
+    /* margin-left: 35%; */
+}
+ .nav-link:hover {
+    color: #6e5b54 !important;
+ }
+
+ .textCont{
+     color: #94807bdb;
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     margin-top: 40px;
+ }
+ .lets{
+     font-weight: bold;
+     font-size: 25px;
+     margin-bottom: 20px;
+
+ }
 #footerName{
     color: white;
     margin-top: 3px;
@@ -96,6 +86,24 @@ h1
     text-align: center;
 }
 
+.contForm{
+    margin:70px 70px;
+    background-color: rgb(219, 218, 217);
+    padding: 30px 30px;
+    color: #966156db;
+    /* font-weight: bold; */
+}
+.email {
+    margin-top:20px;
+    }
+
+    .message{
+        margin-top:15px;
+        }
+
+        /* #placeholder{
+            color: #aa390f;
+        } */
 #Linkedin,
  #GitHub,
  #Email{
