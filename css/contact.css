@@ -54,7 +54,7 @@ h1
     color: #6e5b54 !important;
  }
 
- .btn{
+ .submit{
     background-color:#ad8880db;
     color: white;
     /* margin-left: 35%; */
@@ -93,17 +93,17 @@ h1
     color: #966156db;
     /* font-weight: bold; */
 }
-.email {
+.emailL {
     margin-top:20px;
     }
 
-    .message{
+    .messageL{
         margin-top:15px;
         }
 
-        /* #placeholder{
-            color: #aa390f;
-        } */
+       #status{
+           margin: 30px;
+       }
 #Linkedin,
  #GitHub,
  #Email{

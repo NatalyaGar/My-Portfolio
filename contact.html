@@ -58,33 +58,39 @@
         <p>You can use the form below to drop me a line.</p>
      </div>
 
-     <form class="contForm"> 
+     <!-- <form class="contForm">  -->
+      <form action="https://formspree.io/natalya.garusova@gmail.com" method="POST" class="contForm">
             <div class="row">
               <div class="col">
                     <label for="inputFirstName">First Name</label>
-                    <span class="required">*</span>
-                <input type="text" class="form-control">
+                    <!-- <span class="required">*</span> -->
+                <input type="text" name="First Name" class="form-control">
               </div>
               <div class="col">
                     <label for="inputFirstName">Last Name</label>
-                <input type="text" class="form-control" >
+                <input type="text" name="Last Name" class="form-control" >
               </div>
             </div>
             <div class="form-group">
-                <label class="email" for="inputEmail4">Email</label>
+                <label class="emailL" for="inputEmail4">Email</label>
                 <span class="required">*</span>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="email" name="_replyto" class="form-control" id="email">
             </div>
             <div class="form-group">
-                <label  class="message" for="message" >Message</label>
+                <label  class="messageL" for="message" >Message</label>
                 <span class="required">*</span>
-                <textarea type="text" cols="30" rows="5" class="form-control" id="message"></textarea>
+                <textarea type="text" name="Message" cols="30" rows="5" class="form-control" id="message"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-*">Send your message</button>
+            <div id="status">
+
+            </div>
+
+            <!-- <button type="submit" class="submit" class="btn btn-*"> -->
+                <input type="submit" value="Send your message" class="submit">
+                
+            <!-- </button> -->
      </form>
-
-
 
 
             <footer>
@@ -104,33 +110,23 @@
                    
                 </footer> 
 
-   
-
-
-
-
-
+          
 
            <!--JavaScript--> 
            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+            <!-- Custom JS -->
+            <script src="./main.js"></script>
        </body>
    </html>
 
 
-
-
-
-
-
-
-<style>
+  <style>
         .contact { 
             background-image: url(images/table.jpg); 
             background-attachment: fixed; 
-            /* opacity: 0.5; */
-            /* filter: alpha(opacity=50); */
             /* 
               the three following items below do the following: 
                 a) fix the width and height of the containing div
