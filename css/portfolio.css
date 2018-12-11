@@ -78,6 +78,8 @@ h1
 .card-title{
     color:#da9f90db;
     text-align: center;
+    font-size: 25px;
+    /* font-weight: bold; */
 }
 
 .card-textPr{
@@ -90,16 +92,34 @@ h1
    
 }
 
+.card{
+    margin-bottom: 20px;
+}
+
 .btn{
     background-color:#d2ada4db;
     color: white;
     margin-left: 30%;
 }
+
+#btnTrivGame{
+    background-color:#d2ada4db;
+    color: white;
+    /* margin-left: 45%; */
+    margin-left: 30%;
+    padding: 5px;   
+}
 .card-img{
-    border-bottom: 3px solid #ad8880db;
+    /* border-bottom: 3px solid #ad8880db; */
     border-top: 3px solid #ad8880db;
  
 }
+
+/* .triviaGame{
+    position: relative;
+    position: absolute;
+    margin-top: 2000px;
+} */
 
 .connect{
     text-align: center;
@@ -124,9 +144,11 @@ h1
                     margin-bottom: 0px;
                     }
                     .footer {
-                    position: relative;
-                     bottom: 0; 
+                    /* position: relative; */
+                    /* position: absolute; */
+                     /* bottom: 0;  */
                     width:100%;  
+                    margin-top: 300px;
                    
                     /* Set the fixed height of the footer here */
                      height: 85px;
