@@ -33,6 +33,24 @@ h1
     color: #6e5b54 !important;
  }
 
+ #btnG {
+     margin-top: 5px;
+     margin-left: 34%;
+ }
+
+ #btnGT {
+    margin-top: 5px;
+    margin-left: 31.5%;
+}
+
+.projectImg{
+    width: 330px;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+
+
  #Linkedin,
  #GitHub,
  #Email{
@@ -148,7 +166,7 @@ h1
                     /* position: absolute; */
                      /* bottom: 0;  */
                     width:100%;  
-                    margin-top: 300px;
+                    margin-top: 820px;
                    
                     /* Set the fixed height of the footer here */
                      height: 85px;
